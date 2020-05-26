@@ -18,6 +18,5 @@ p <- plot_ly(data = df,
              name = "Confirmed",
              textinfo = "label+value+percent parent")
 saveWidget(p, file="coronatree.html")
-saveWidget(p, file="coronatree.png")
-
+saveWidget(p, file="coronatree.pdf")
 p
