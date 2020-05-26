@@ -19,4 +19,4 @@ p <- plot_ly(data = df,
              textinfo = "label+value+percent parent")
 saveWidget(p, file="coronatree.html")
 saveWidget(p, file="coronatree.pdf")
-print(p)
+p
